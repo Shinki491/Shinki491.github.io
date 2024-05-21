@@ -35,7 +35,8 @@ p {
 }
 
 .my-link {
-    color: #d49308
+    color: #d49308;
+    text-decoration: underline;
 }   
 
 .thumbnail {
@@ -114,4 +115,8 @@ p {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+a.my-link:visited {
+  color: #d42a08; /* Change to the desired color */
 }
