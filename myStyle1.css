@@ -1,0 +1,86 @@
+
+#review-bg {
+    background-color: #f8f8f8;
+    background-image: url('pumpkin-bg.jpeg');
+    background-repeat: repeat;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 231, 196, 0.9); /* Semi-transparent white background */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.custom-navbar {
+    background-color: #e5bf66; /* Creamy yellowish-brown color */
+}
+
+.navbar-brand, .nav-link {
+    color: #7a3e10 !important; /* Darker brown for contrast */
+}
+
+.nav-link:hover {
+    color: #5a2e09 !important; /* Slightly darker brown on hover */
+}
+
+.my-link {
+    color: #d49308
+}   
+
+.thumbnail {
+    width: 150px; /* Adjust the thumbnail size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    opacity: 0.7; /* Optional: Reduce opacity on hover */
+}
+
+.table-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .table thead {
+    background-color: #f2f2f2;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-summary {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
