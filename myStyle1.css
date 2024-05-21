@@ -1,12 +1,12 @@
 
-#review-bg {
+#pkin-bg {
     background-color: #f8f8f8;
     background-image: url('pumpkin-bg.jpeg');
     background-repeat: repeat;
 }
 
 .content-wrapper {
-    background-color: rgba(255, 231, 196, 0.9); /* Semi-transparent white background */
+    background-color: rgba(255, 231, 196, 0.95); /* Semi-transparent white background */
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -66,7 +66,7 @@ p {
   }
   
   .table thead {
-    background-color: #f2f2f2;
+    background-color: #eab979;
   }
   
   .table th,
@@ -77,10 +77,41 @@ p {
   }
   
   .table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f2d1a2;
   }
   
   .table-summary {
     font-style: italic;
     margin-bottom: 10px;
   }
+
+  .table-caption {
+    font-size: 5px;
+  }
+
+  footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Spacing around content */
+    text-align: center; /* Center align text */
+}
+
+.footer-link {
+    color: #fff; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
