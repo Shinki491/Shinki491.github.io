@@ -120,3 +120,7 @@ p {
 a.my-link:visited {
   color: #d42a08; /* Change to the desired color */
 }
+
+a.my-link:hover {
+  color: #613e06; /* Change to the desired color */
+}
